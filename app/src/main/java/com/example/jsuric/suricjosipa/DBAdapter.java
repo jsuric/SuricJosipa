@@ -152,8 +152,8 @@ public class DBAdapter {
     }
 
     //---retrieves a particular character by name---
-
-   /* public Cursor getLikbyName(String ime) throws SQLException
+    /*
+    public Cursor getLikbyName(String ime) throws SQLException
     {
         Cursor mCursor =
                 db.query(true, DATABASE_TABLE, new String[] {KEY_ROWID,
